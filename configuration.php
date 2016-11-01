@@ -56,8 +56,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = 'D:\\OpenServer\\domains\\mozyrpromstroy-by\\administrator/logs';
-	public $tmp_path = 'D:\\OpenServer\\domains\\mozyrpromstroy-by/tmp';
+	public $log_path = 'administrator/logs';
+	public $tmp_path = '/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 }

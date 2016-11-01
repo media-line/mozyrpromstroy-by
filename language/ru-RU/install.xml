@@ -2,8 +2,8 @@
 <extension version="3.6" client="site" type="language" method="upgrade">
 	<name>Russian</name>
 	<tag>ru-RU</tag>
-	<version>3.6.2.1</version>
-	<creationDate>2016-08-24</creationDate>
+	<version>3.6.2.2</version>
+	<creationDate>2016-09-04</creationDate>
 	<author>Russian Translation Team</author>
 	<authorEmail>smart@joomlaportal.ru</authorEmail>
 	<authorUrl>www.joomlaportal.ru</authorUrl>
@@ -97,6 +97,7 @@
 		<filename file="meta">install.xml</filename>
 		<filename file="meta">ru-RU.xml</filename>
 	</files>
+
 
 
 	<params />

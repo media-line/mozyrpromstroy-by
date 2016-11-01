@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.1"
+	client="site"
+	method="upgrade">
+	<name>mod_materials_ra</name>
+	<author>Andrei Kravchenko</author>
+	<creationDate>2016</creationDate>
+	<authorEmail>akrauchanka@medialine.by</authorEmail>
+	<version>1.0</version>
+	<description>Модуль вывода и сортировки материалов</description>
+
+	<files>
+		<filename module="mod_materials_ra">mod_materials_ra.php</filename>
+        <filename>custom.css</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_materials_ra.php</filename>
+		<filename>mod_materials_ra.xml</filename>
+        <folder>tmpl</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field
+                        name="cat0"
+                        type="category"
+                        label="Первая вкладка"
+                        description="Выбор категории для первой вкладки"
+                        extension="com_content"/>
+                <field
+                        name="cat1"
+                        type="category"
+                        label="Вторая вкладка"
+                        description="Выбор категории для второй вкладки"
+                        extension="com_content"/>
+			</fieldset>
+
+            <fieldset name="advanced">
+            <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+            />
+            </fieldset>
+		</fields>
+	</config>
+</extension>

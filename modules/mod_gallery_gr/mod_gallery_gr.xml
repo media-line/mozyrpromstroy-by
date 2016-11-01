@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль галлереи</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль галлереи</description>
+	<files>
+		<filename module="mod_gallery_gr">mod_gallery_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_gallery_gr.xml</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="gallery"
+					type="Repeatable"
+					description="Контент"
+					label="Контент">
+					<fieldset name="gallery-block" repeat="true">		
+                        <field name="img-prev" type="media"
+                            label="Превью изображение" />                     
+                        <field name="img-full" type="media"
+                            label="Полное изображение" />                       
+					</fieldset>
+				</field>                  
+			</fieldset>
+            
+            <fieldset name="advanced">
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        description="JFIELD_ALT_MODULE_LAYOUT_DESC"
+                />
+            </fieldset>            
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,89 @@
+.our-objects h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 17px;
+    letter-spacing: -2.2px;
+    margin-bottom: 5px;
+}
+
+.our-objects .nav-tabs {
+    border-bottom: 1px solid #e4e5e6;
+}
+
+.our-objects ul {
+    padding: 0 0 0 21px;
+    width: 100%;
+    display: table;
+    position: relative;
+}
+
+.our-objects li {
+    width: 170px;
+    float: left;
+    margin-right: 25px;
+}
+
+.our-objects li a {
+    color: #5d6a76;
+    text-transform: none;
+    font-size: 14px;
+    border: none;
+    padding-bottom: 22px;
+    padding-top: 15px;
+}
+.our-objects .nav > li:nth-child(1) > a {
+    border-left: none;
+}
+
+.our-objects li > a:hover, .our-objects .nav > li.active > a:hover {
+    border: none;
+    border-bottom: 2px solid #da3016;
+    background: transparent;
+}
+
+.our-objects .nav > li > a:focus, .our-objects .nav > li.active > a {
+    border: none !important;
+    border-bottom: 2px solid #da3016 !important;
+    background: transparent;
+}
+
+.tab-content {
+    margin-top: 34px;
+}
+
+/*Собственно объекты*/
+.oo-item {
+    width: 49.6%;
+    height: auto;
+    display: inline-block;
+    padding-left: 20px;
+    margin-right: -5px;
+    transition: 2s;
+}
+
+.oo-item:hover {
+    transition: 1s;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.oo-images img {
+    width: 252px;
+    height: auto;
+}
+
+.oo-title {
+    color: #007ae1;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    height: 45px;
+}
+
+.oo-intro {
+    color: #5d6a76;
+    line-height: 23px;
+    padding-bottom: 33px;
+}
