@@ -36,6 +36,24 @@
                         label="Вторая вкладка"
                         description="Выбор категории для второй вкладки"
                         extension="com_content"/>
+				<field
+						name="cat2"
+						type="category"
+						label="Третья вкладка"
+						description="Выбор категории для третьей вкладки"
+						extension="com_content"/>
+				<field
+						name="cat3"
+						type="category"
+						label="Четвертая вкладка"
+						description="Выбор категории для четвертой вкладки"
+						extension="com_content"/>
+				<field
+						name="cat4"
+						type="category"
+						label="Пятая вкладка"
+						description="Выбор категории для пятой вкладки"
+						extension="com_content"/>
 			</fieldset>
 
             <fieldset name="advanced">

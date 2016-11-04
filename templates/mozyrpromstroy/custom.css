@@ -282,7 +282,7 @@ main {
 }
 
 .main-page {
-    width: 50% !important;
+    width: 45% !important;
 }
 
 .main-content .page-header {
@@ -492,7 +492,7 @@ footer {
 .copyright {
     color: #fff;
     display: inline-block;
-    max-width: 82%;
+    max-width: 100%;
     font-family: 'Lato', sans-serif;
     padding-left: 9px;
 }
@@ -597,7 +597,7 @@ footer {
     -o-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    top: 
+    /*top: */
 }
 
 .mod-gallery-gr .next-arrow {
