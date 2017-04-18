@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="20c647ba-23cc-402f-b3aa-9805fd4efd01" name="mozyrpromstroy.by" url="http://ftp.mozyrpromstroy.medialine.by">
-        <fileTransfer host="ftp.mozyrpromstroy.medialine.by" port="21">
+      <webServer id="20c647ba-23cc-402f-b3aa-9805fd4efd01" name="mozyrpromstroy.by" url="http://ftp.mozyrpromstroy.by">
+        <fileTransfer host="ftp.mozyrpromstroy.by" port="21">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
